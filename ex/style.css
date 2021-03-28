@@ -1,0 +1,172 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.intro_background {
+    display: flexd;
+    background: url(image/intro3.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+/* .header {
+    display: flex;
+    width: auto;
+    margin: auto;
+    height: 86px;
+    background-color: rgba(255, 255, 255, 0.8);
+} */
+
+.header{
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_area {
+    display: flex;
+    line-height: 86px;
+    width: 300px;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 24px;
+    opacity: 0.8;
+    margin: 0;
+
+}
+
+.search_area > form > input {
+    border: none;
+    width: 300px;
+    height: 40px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+/* .search-area > form > button {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    line-height: 86px;
+}
+
+.nav > li {
+    margin-left: 84px;
+}
+
+.nav > li > a {
+    color: black;   
+    font-weight: bold; 
+}
+
+.intro_text {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.intro_text > h1{
+    position: relative;
+    bottom: -500px;
+    color: black;
+    font-size: 100px;
+}
+.intro_text > h2 {
+    position: relative;
+    bottom: -800px;
+    color: black;
+    font-size: 80px;
+}
+
+.banner {
+    position: relative;
+    bottom: -2000px;
+    display: flex;
+    width: 1920px;
+    margin: auto;
+    background:white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner > li {
+    flex: 1;
+    width: 320px;
+    height: 300px;
+    
+}
+
+.banner > li > div {
+    margin-top: 80px;
+    left: 50%;
+    top: 50;
+    text-align: center;
+    height: 150px;
+    /* border:1px solid black; */
+}
+
+.banner > li > div {
+    font-size: 80px;
+}
+
+.banner > li > div > span {
+    font-size: 30px;
+}
+
+.banner > li:not(:last-child) > div {
+    border-right: 1px solid gray;
+}
+
+.middle {
+    position: relative;
+    bottom: -2500px;
+    width: auto;
+    height: 500px;
+    background-color: rgb(238, 235, 235);
+}
+
+.middle > h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.middle > h2{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+
+
+
+
+
